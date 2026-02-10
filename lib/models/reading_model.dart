@@ -9,6 +9,7 @@ class Reading {
   final double value;
   final DateTime date;
   final String apartmentId;
+  final bool isMeterChange;
 
   Reading({
     required this.id,
@@ -16,5 +17,6 @@ class Reading {
     required this.value,
     required this.date,
     required this.apartmentId,
+    this.isMeterChange = false,
   });
 }
